@@ -23,7 +23,7 @@ xtitle('Analog signal xa(t)', 't (s)', 'xa(t)');
 
 // 1.2 third question: The discrete-time signal x(n) = 3*sin(%pi*n/3) (periodic signal: f = 1/6, T = 6)
 subplot(3,1,2)
-n = linspace(0,30,30);
+n = 0:30;
 xn = 3*sin(%pi*n/3);
 plot2d3(n, xn, style = 2)
 xtitle('Discrete-time signal x(n)', 'n (samples)', 'x(n)');

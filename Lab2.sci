@@ -1,6 +1,5 @@
 clc;
 clear;
-xdel(winsid());// Close all currently open graphic windows
 
 //task2.2
 scf(1);
